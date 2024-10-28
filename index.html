@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor de Escalas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Constructor de Escalas</h1>
+    <p>Escriba la tónica de la escala que desea conocer en mayúsculas. Ejemplo "D"</p>
+    <input type="text" id="escala" placeholder="Ingrese la nota tónica">
+    <select id="tipoEscala">
+        <option value="mayor">Escala Mayor</option>
+        <option value="menorNatural">Escala Menor Natural</option>
+        <option value="menorArmonica">Escala Menor Armónica</option>
+        <option value="menorMelodica">Escala Menor Melódica</option>
+    </select>
+    <button onclick="mostrarEscala()">Mostrar Escala</button>
+    <p id="resultado"></p>
+    <script src="main.js"></script>
+</body>
+</html>
